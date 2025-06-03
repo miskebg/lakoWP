@@ -4,7 +4,7 @@ Theme URI: https://github.com/miskebg/lakoWP
 Author: Milos Komljen
 Author URI: https://github.com/miskebg/lakoWP
 Description: Jednostavna i lagana tema za WordPress.
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: moja-tema
@@ -38,6 +38,37 @@ body {
 .top-item {
     margin-right: 20px;
 }
+
+.glavni-meni ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-weight: 600;
+}
+
+.glavni-meni li {
+  position: relative;
+}
+
+.glavni-meni a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.glavni-meni a:hover,
+.glavni-meni a:focus {
+  background-color: #f36d28; /* tvoja narandžasta boja */
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(243, 109, 40, 0.5);
+}
+
 
 .top-bar-socials {
     display: flex;
